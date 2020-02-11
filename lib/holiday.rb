@@ -42,7 +42,7 @@ end
 
 def all_winter_holiday_supplies(holiday_hash)
   item_array = []
-  winter
+  holiday_hash[:winter]
 end
 
 def all_supplies_in_holidays(holiday_hash)
