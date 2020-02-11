@@ -47,8 +47,6 @@ def all_winter_holiday_supplies(holiday_hash)
       item_array << items
     end
 end
-item_array    
-end
 
 
 def all_supplies_in_holidays(holiday_hash)
