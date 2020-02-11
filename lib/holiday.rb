@@ -41,11 +41,13 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 end
 
 def all_winter_holiday_supplies(holiday_hash)
-  item_array = []
-  holiday_hash[:winter].each do |holiday, item|
-    item.each do |items|
-      item_array << items
+  winter_item_array = []
+  holiday_hash[:winter].each do |holiday, items|
+    items.each do |item|
+      winter_item_array << item
     end
+  end
+  winter_item_array
 end
 
 
